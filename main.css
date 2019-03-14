@@ -226,6 +226,7 @@ a{
     
 }
 
+
 .underline{
     display: block;
 	background-color: #fd6592;
@@ -244,9 +245,67 @@ a{
     line-height: 30px;
     margin-top: 10px;
 }
-/*-------- Work 01 and 02 --------*/
+/*-------- Work 0 and 02 --------*/
+
+.work2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.workText2{
+    top: 87px;
+    left: 685px;
+    position: absolute;
+
+}
+.workText2 a{
+    text-decoration: none;
+}
+
+.workText2 h5{
+    color: black;
+}
+
+ .working2{
+    width: 600px;
+    height: 600px;
+    float: left;
+    margin: 48px 136px;
+    background-image: url(./images/project_02.png);
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px
+    
+}
 
 
+.underline{
+    display: block;
+	background-color: #fd6592;
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
+}
+.workWrapper2 ul{
+    display: block;
+    position: absolute;
+    left: 57%;
+    top: 75%;
+    list-style: none;
+}
+.workWrapper2 li{
+    line-height: 30px;
+    margin-top: 10px;
+}
 
 
 /*-------- Footer --------*/
